@@ -1,6 +1,6 @@
 // add solution here
 function theBeatlesPlay(musicians,instruments){
-  var empArray
+  var empArray = []
   for(var i; i < musicians.length ; i++){
     empArray[i] = "" + musicians[i] + " plays " + instruments[i]
     //console.log(empArray[i])
@@ -16,9 +16,11 @@ function johnLennonFacts(facts){
 }
 
 function iLoveTheBeatles(a){
-  var empArray2
+  var empArray2 = []
+  var count = 0
   do{
-      
+      empArray2[count] = "I love the Beatles!"
+      count ++
   }
-  while()
+  while(count < a || )
 }
