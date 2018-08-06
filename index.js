@@ -31,7 +31,7 @@ function iLoveTheBeatles(a){
       empArray3.push("I love the Beatles!");
       count ++;
   }
-  while(count <= a)
+  while(count <= a && count < 15)
   
   return empArray3;
 }
