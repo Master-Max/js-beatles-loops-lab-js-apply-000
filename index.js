@@ -5,7 +5,7 @@ function theBeatlesPlay(musicians,instruments){
     empArray[i] = "" + musicians[i] + " plays " + instruments[i]
     //console.log(empArray[i])
   }
-  //return empArray
+  return empArray
 }
 
 function johnLennonFacts(facts){
@@ -13,6 +13,8 @@ function johnLennonFacts(facts){
   while (i < facts.length){
     facts[i] = facts[i] + "!!!"
   }
+  
+  return facts
 }
 
 function iLoveTheBeatles(a){
@@ -23,4 +25,6 @@ function iLoveTheBeatles(a){
       count ++
   }
   while(count < a || count > 15)
+  
+  return empArray2
 }
