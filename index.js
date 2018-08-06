@@ -1,8 +1,8 @@
 // add solution here
 
-function theBeatlesPlay(musicians,instruments){
+function theBeatlesPlay(musicians, instruments){
   var empArray = [];
-  for(var i; i < musicians.length ; i++){
+  for(var i = 0; i < musicians.length ; i++){
     empArray.push(musicians[i] + " plays " + instruments[i]);
   }
   return empArray;
