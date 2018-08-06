@@ -9,7 +9,7 @@ function theBeatlesPlay(musicians,instruments){
 }
 
 function johnLennonFacts(facts){
-  var i = 0;
+  var i = 0
   while (i < facts.length){
     facts[i] = facts[i] + "!!!"
   }
@@ -22,5 +22,5 @@ function iLoveTheBeatles(a){
       empArray2[count] = "I love the Beatles!"
       count ++
   }
-  while(count < a || )
+  while(count < a || count > 15)
 }
