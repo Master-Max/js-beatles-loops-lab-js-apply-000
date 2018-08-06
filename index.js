@@ -1,4 +1,6 @@
 // add solution here
+
+
 function theBeatlesPlay(musicians,instruments){
   var empArray = [];
   for(var i; i < musicians.length ; i++){
