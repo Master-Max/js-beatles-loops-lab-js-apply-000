@@ -1,21 +1,13 @@
 // add solution here
-function theBeatlesPlay(musicians, instruments) {
-  var array = [];
-  for (var i = 0; i < musicians.length; i++) {
-    array.push(musicians[i] + " plays " + instruments[i]);
-  }
-  return array;
-}
-/*
+
 function theBeatlesPlay(musicians,instruments){
   var empArray = [];
   for(var i; i < musicians.length ; i++){
-    empArray[i] = "" + musicians[i] + " plays " + instruments[i];
-    //console.log(empArray[i])
+    empArray.push(musicians[i] + " plays " + instruments[i]);
   }
   return empArray;
 }
-*/
+
 function johnLennonFacts(facts){
   var i = 0;
   while (i < facts.length){
