@@ -23,7 +23,7 @@ function iLoveTheBeatles(a){
   var empArray3 = [];
   var count = 0;
   do{
-      empArray2.push("I love the Beatles!");
+      empArray3.push("I love the Beatles!");
       count ++;
   }
   while(count < a || count > 15)
